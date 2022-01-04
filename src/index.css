@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+
+html {
+  font-family: "Dosis", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.start {
+  background-color: white;
+}
+
+.prompts {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.app {
+  background-image: url("assets/cold.jpg");
+  background-size: cover;
+  transition: 0.4 ease;
+  width: 50%;
+  margin: 0 auto;
+  height: 400px;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+
+.app.warm {
+  background-image: url("assets/hot.jpg");
+  background-size: cover;
+  transition: 0.4 ease;
+  width: 50%;
+  margin: 0 auto;
+  height: 400px;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
